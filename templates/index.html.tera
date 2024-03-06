@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <header class="text-center p-5 bg-blue-500 text-white">
+      <h1 class="text-3xl">Selamat Datang di Landing Page Kami</h1>
+      <p class="text-lg">Menggunakan Rocket dan Tailwind CSS</p>
+    </header>
+
+    <section class="p-10">
+      <h2 class="text-2xl">Tentang</h2>
+      <p>
+        Ini adalah contoh sederhana dari landing page yang dibuat dengan Rocket
+        untuk Rust dan Tailwind CSS.
+      </p>
+    </section>
+
+    <footer class="text-center p-5 bg-blue-500 text-white mt-10">
+      © 2024 Landing Page. Semua Hak Dilindungi.
+    </footer>
+  </body>
+</html>
